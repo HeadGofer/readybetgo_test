@@ -1,0 +1,11 @@
+---
+layout: layout.njk
+---
+
+<h2>Welcome to the new ReadyBetGo</h2>
+<p>This is your Eleventy starter site. Articles will appear below.</p>
+<ul>
+  {% for post in collections.post %}
+    <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+  {% endfor %}
+</ul>

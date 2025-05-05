@@ -1,0 +1,11 @@
+{
+  "name": "readybetgo-eleventy",
+  "version": "1.0.0",
+  "description": "Starter site for ReadyBetGo using Eleventy",
+  "scripts": {
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0"
+  }
+}
